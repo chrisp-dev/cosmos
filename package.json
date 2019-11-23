@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chrisp-dev/cosmos/issues"
   },
-  "homepage": "https://github.com/chrisp-dev/cosmos#readme"
+  "homepage": "https://github.com/chrisp-dev/cosmos#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
 }
