@@ -1,0 +1,12 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: url("../images/demo-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: greenyellow;
+    background-blend-mode: hard-light;
+}
