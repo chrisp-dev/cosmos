@@ -9,23 +9,33 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body class="d-flex flex-column">
-    <nav class="navbar navbar-expand-lg w-100 bg-light">
-        <div class="navbar-brand bg-light">Cosmos Counseling</div>
+    <nav class="navbar navbar-expand-lg w-100 bg-dark">
+        <div class="navbar-brand bg-dark text-white-50">Cosmos Counseling</div>
         <ul class="list-group list-group-horizontal navbar-nav">
-            <li class="nav-link"><a  href="index.html">Home</a></li>
-            <li class="nav-link active" ><a href="about.html">About <span class="sr-only">(active)</span></a></li>
-            <li class="nav-link"><a  href="contact.html">Contact</a></li>
+            <li class="nav-link active"><a href="index.html">Home</a></li>
+            <li class="nav-link"><a href="#">About <span class="sr-only">(active)</span></a></li>
+            <li class="nav-link"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="container text-white" style="flex: 1 0 auto;">
-        <div class="card-body">
-            <h2 class="card-title">About Myself</h2>
+    <div class="container my-5 text-white" style="flex: 1 0 auto;">
+        <canvas style="position: absolute;top:0;left:0;z-index:-1" width="100%" height="100%" id="demo-canvas"></canvas>
+        <div class="">
+            <h1 class=""><span class="thin">Brooke</span> J. Winterling</h1>
+            <h3 class="">Profesional Mental Health Therapist</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quae harum nam similique suscipit. Ea illo alias animi tenetur harum, dolore soluta eaque. Pariatur sed, similique aspernatur laborum id optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur id accusamus tempora deleniti asperiores. Beatae, velit numquam! Eligendi quae provident autem accusamus, libero itaque consequatur fugiat, ut accusantium labore eius.lore Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quos doloribus saepe minus autem, inventore delectus perferendis tenetur laboriosam quas voluptatem accusamus voluptas aliquam aut. Voluptatibus exercitationem quibusdam tempora commodi!</p>
         </div>
     </div>
-    <footer class="footer bg-dark text-white-50 text-center h-40">Copyright &copy;2019</footer>
-    
+
+    <div class="container demo">
+        <div class="content">
+            <div id="large-header" class="large-header">
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/TweenLite.js"></script>
+    <script src="assets/js/EasePack.js"></script>
+    <script src="assets/js/demo-animate-bg.js"></script>
 </body>
 </html>
